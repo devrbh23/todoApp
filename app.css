@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background-color: rgb(231, 229, 219);
+}
+
+input[type=text],
+select {
+    width: 90%;
+    padding: 12px 10px;
+    margin: 7px 0 8px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.plus-icon {
+    width: 10px;
+    height: 10px;
+
+}
+
+
+.hide {
+    display: none
+}
+
+.flex-icon {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 8px;
+}
+
+
+.icon1 {
+    width: 15px;
+    height: 15px;
+}
+
+.icon2 {
+    width: 15px;
+    height: 15px;
+}
